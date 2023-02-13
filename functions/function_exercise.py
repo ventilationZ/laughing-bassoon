@@ -1,6 +1,9 @@
-def calculate_months():
-    age = int(input("Enter your age"))
-    months_lived= age *12
-    print(f"You have lived for {months_lived}  months")
 
-calculate_months()
+
+def calculate_multiplication():
+    num1 =int(input("Enter your first number"))
+    num2 =int(input("Enter your second number"))
+    result = num1 *num2
+    print(f"Your multipllicaton result is {result}")
+
+calculate_multiplication()
